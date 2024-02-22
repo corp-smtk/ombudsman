@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import L from 'leaflet';
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretDown, faClock, faPlus, faSearchLocation } from '@fortawesome/free-solid-svg-icons'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+
 import { Button, Card, Col, Container, Form, Pagination, Row } from 'react-bootstrap';
 import _ from 'lodash';
-import Skeleton from 'react-loading-skeleton'
+
 import { useTranslation } from 'react-i18next';
 import moment from 'moment';
 import axios from 'axios';
@@ -20,9 +20,7 @@ import ServiceApi from '../../../api/MyApi';
 import ReactPaginate from 'react-paginate';
 import * as BiIcons from 'react-icons/bi';
 
-const iconPerson = new L.Icon({
 
-});
 
 const styles = { fontSize: '20px' }
 

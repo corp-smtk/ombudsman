@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import L from 'leaflet';
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft, faClock, faPlus, faSearchLocation } from '@fortawesome/free-solid-svg-icons'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+
 import { Badge, Button, Card, Col, Container, Form, Row } from 'react-bootstrap';
 import _ from 'lodash';
-import Skeleton from 'react-loading-skeleton'
+
 import { useTranslation } from 'react-i18next';
 import * as moment from 'moment';
 import axios from 'axios';

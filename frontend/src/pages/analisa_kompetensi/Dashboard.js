@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import _ from 'lodash';
-import Skeleton from 'react-loading-skeleton';
+
 import { Button, Card, Col, Container, Dropdown, Form, Row } from 'react-bootstrap';
 import * as AiIcons from 'react-icons/ai';
 import { Link } from 'react-router-dom';

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft, faClock, faPlus, faInbox } from '@fortawesome/free-solid-svg-icons'
 import { Button, Card, Col, Container, Form, Row } from 'react-bootstrap';
 import _ from 'lodash';
-import Skeleton from 'react-loading-skeleton'
+
 import * as moment from 'moment';
 import Swal from 'sweetalert2'
 import * as AiIcons from 'react-icons/ai';

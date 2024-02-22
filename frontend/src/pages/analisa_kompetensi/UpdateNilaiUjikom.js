@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft, faClock, faPlus, faSearchLocation } from '@fortawesome/free-solid-svg-icons'
 import { Button, Card, Col, Container, Form, Row, Pagination, Badge } from 'react-bootstrap';
 import _ from 'lodash';
-import Skeleton from 'react-loading-skeleton';
+
 import { Link, Redirect } from 'react-router-dom';
 import * as AiIcons from 'react-icons/ai';
 import * as FaIcons from 'react-icons/fa';

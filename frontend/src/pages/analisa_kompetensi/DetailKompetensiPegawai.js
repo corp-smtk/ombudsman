@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft, faClock, faPaperclip, faPlus, faSearchLocation } from '@fortawesome/free-solid-svg-icons'
 import { Button, Card, Col, Container, Form, Row, Pagination } from 'react-bootstrap';
 import _ from 'lodash';
-import Skeleton from 'react-loading-skeleton';
+
 import { Link, Redirect } from 'react-router-dom';
 import {
     Chart as ChartJS,

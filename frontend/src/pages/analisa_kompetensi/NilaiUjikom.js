@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock, faPlus, faSearchLocation } from '@fortawesome/free-solid-svg-icons'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import _ from 'lodash';
-import Skeleton from 'react-loading-skeleton'
+
 import Select from 'react-select';
 import ServiceApi from '../../api/MyApi';
 

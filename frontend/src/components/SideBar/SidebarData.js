@@ -1,6 +1,6 @@
 import React from "react";
 import * as RiIcons from "react-icons/ri";
-import {GoPrimitiveDot as Dot} from "react-icons/go";
+import {GoDotFill as Dot} from "react-icons/go";
 
 export const SidebarData = [
     {

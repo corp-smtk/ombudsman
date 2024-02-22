@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import L from 'leaflet';
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft, faClock, faPlus, faSearchLocation } from '@fortawesome/free-solid-svg-icons'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+
 import { Button, Card, Col, Container, Form, Row } from 'react-bootstrap';
 import _ from 'lodash';
-import Skeleton from 'react-loading-skeleton'
+
 import { useTranslation } from 'react-i18next';
 import moment from 'moment';
 import axios from 'axios';
@@ -16,9 +16,7 @@ import * as BsIcons from 'react-icons/bs';
 import { Link, Redirect, useHistory, useLocation } from 'react-router-dom';
 import ServiceApi from '../../../api/MyApi';
 
-const iconPerson = new L.Icon({
 
-});
 
 const EditKategori = () => {
     const history = useHistory();
